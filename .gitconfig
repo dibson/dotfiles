@@ -1,0 +1,25 @@
+[user]
+	name = Dibson T Hoffweiler
+	email = consulting@hoffweiler.com
+[github]
+	user = dibson
+	token = d6431e7bbe86e9ee1dfcf6aaf7d9f4c8
+[sendemail]
+    smtpencryption = tls
+    smtpserver = smtp.gmail.com
+    smtpuser = dibson@gmail.com
+    smtpserverport = 587
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[alias]
+  st = status
+  dc = diff --cached
+  ci = commit
+  co = checkout
+  b = branch
+  dif = diff
+  lg = log -5
+[color]
+	ui = true
