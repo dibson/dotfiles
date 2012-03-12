@@ -1,0 +1,32 @@
+#debug on
+#defscrollback 100000
+#
+# xterm names of the screen
+termcapinfo xterm 'is=\E[r\E[m\E[2J\E[H\E[?7h\E[?1;4;6l'
+
+# always show all the screens available
+hardstatus alwayslastline
+# coolio hardstatus line.  With the date and time.
+hardstatus string "%{.bW}%-w%{.rW}%f%n %t%{-}%+w %=%{..G}[%H %l] %{..Y} %m/%d %c "
+
+# connect windows to the display so programs like mplayer can find it when
+# we're inside a screen in a terminal application in a graphical environment
+setenv DISPLAY ':0'
+
+# UTF-8 everywhere
+defutf8 on
+
+# disable Ctrl-S/Ctrl-Q "flow control"
+defflow off
+
+# skip intro
+startup_message off
+
+# detach on disconnect
+autodetach on
+
+# print wackier status messages
+#nethack on
+
+# startup as login shell bash
+shell -/bin/bash
