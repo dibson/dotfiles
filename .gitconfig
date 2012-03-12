@@ -1,9 +1,3 @@
-[user]
-	name = Dibson T Hoffweiler
-	email = consulting@hoffweiler.com
-[github]
-	user = dibson
-	token = d6431e7bbe86e9ee1dfcf6aaf7d9f4c8
 [sendemail]
     smtpencryption = tls
     smtpserver = smtp.gmail.com
