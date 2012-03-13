@@ -12,6 +12,10 @@ set shiftwidth=2
 set expandtab
 set backspace=indent,eol,start
 
+syntax enable
+set background=dark
+colorscheme solarized
+
 highlight ExtraWhitespace ctermbg=red guibg=red
 highlight ExtraWhitespace ctermbg=darkred guibg=darkred
 
@@ -73,4 +77,4 @@ set statusline+=%l/%L   "cursor line/total lines
 set statusline+=\ %P    "percent through file
 set laststatus=2
 
-call pathogen#infect()
+"call pathogen#infect()
